@@ -1,0 +1,23 @@
+FROM php:7.3-fpm
+
+#RUN apt-get update
+#RUN apt-get install -y g++
+#RUN apt-get install -y libpng-dev libmcrypt-dev libxml2-dev libtidy-dev
+
+# install php mysql extension
+#RUN docker-php-ext-install mysql
+#RUN docker-php-ext-install pdo
+#RUN docker-php-ext-install pdo_mysql
+#RUN docker-php-ext-install bcmath
+#RUN docker-php-ext-install gd
+#RUN docker-php-ext-install mcrypt
+#RUN docker-php-ext-install soap
+#RUN docker-php-ext-install tidy
+#RUN docker-php-ext-install xml
+#RUN docker-php-ext-install xmlrpc
+
+# install zip archive extension
+#RUN docker-php-ext-install zip
+#RUN docker-php-ext-install calendar
+
+EXPOSE 9000
